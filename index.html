@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  </script>
+  
+  <link rel="stylesheet" type="text/css" href="mystyle1.css">
+</head>
+
+ <body class="bg-gray-800">
+  <nav class="p-3 bg-black shadow md:flex md:items-center md:justify-between">
+    <div class="flex justify-between items-center ">
+      <span class="bg-red-500 text-2xl font-[Poppins] cursor-pointer duration-500 px-6 py-3 mx-5 hover:bg-red-600 rounded">
+        Game
+      </span>
+
+      <span class="text-3xl cursor-pointer mx-2 md:hidden block">
+        <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
+      </span>
+    </div>
+
+    <ul class="md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-black w-full left-0 md:w-auto md:py-1 py-4 md:pl-2 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
+      <li class="mx-4 my-6 md:my-0">
+        <a href="index.html" class="bg-black text-1xl text-white duration-700 px-6 py-2 mx-1 hover:bg-red-500 rounded">HOME</a>
+      </li>
+      <li class="mx-4 my-6 md:my-0">
+        <a href="page1.html" class="bg-black text-1xl text-white duration-700 px-6 py-2 mx-1 hover:bg-red-500 rounded">ABOUT</a>
+      </li>
+      <li class="mx-4 my-6 md:my-0">
+        <a href="page2.html" class="bg-black text-1xl text-white duration-700 px-6 py-2 mx-1 hover:bg-red-500 rounded">AGENT</a>
+      </li>
+      <li class="mx-4 my-6 md:my-0">
+        <a href="page3.html" class="bg-black text-1xl text-white duration-700 px-6 py-2 mx-1 hover:bg-red-500 rounded">MAP</a>
+      </li>
+      <li class="mx-4 my-6 md:my-0">
+        <a href="page4.html" class="bg-black text-1xl text-white duration-700 px-6 py-2 mx-1 hover:bg-red-500 rounded">WEAPON</a>
+      </li>
+
+      <button class="bg-white text-1xl cursor-pointer duration-500 px-6 py-3 mx-1 hover:bg-red-500 rounded">
+        Login
+      </button>
+      <button class="bg-white text-1xl cursor-pointer duration-500 px-6 py-3 mx-1 hover:bg-red-500 rounded">
+        register
+      </button>
+    </ul>
+  </nav>
+
+  <header>
+    <div class="text-6xl text-center font-extrabold p-8">
+      <span class="bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-pink-500">
+        Valorant
+      </span>
+    </div>
+    <div class="py-2 flex items-center justify-center space-x-10">
+      <iframe class="mb-44" width="900" height="600" src="https://www.youtube.com/embed/bxBvRVEeJX8?autoplay=1&mute=1"></iframe>
+</div>
+</header>
+  <div class="flex justify-center items-center">
+      <a href="page1.html" class="relative inline-flex items-center justify-start px-6 py-4 bottom-36 overflow-hidden font-medium transition-all bg-neutral-800 rounded hover:bg-red-400 group">
+        <span class="w-48 h-48 rounded rotate-[-40deg] bg-red-600 absolute bottom-0 left-0 -translate-x-full ease-out duration-700 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"></span>
+        <span class="relative w-full text-left text-red-500 transition-colors duration-300 ease-in-out group-hover:text-white">PLAY VALORANT</span>
+        </a>
+        </div>
+  <footer class="bg-black text-center text-white text-1xl p-6 w-full fixed bottom-0">
+    <h1>©2022 Passakorn</h1>
+  </footer>
+
+</body>
+</html> 
